@@ -17,6 +17,10 @@
 		<!-- Versions -->
 		<ApplicationVersion>1.0</ApplicationVersion>
 		<AndroidVersionCode>1</AndroidVersionCode>
+
+		<!-- Use .NET MAUI RC1 runtime & ref packs -->
+		<MicrosoftMauiSdkVersion>6.0.100-rc.1.1351</MicrosoftMauiSdkVersion>
+		<RestoreAdditionalProjectSources>https://aka.ms/maui-preview/index.json</RestoreAdditionalProjectSources>
 	</PropertyGroup>
 
 	<ItemGroup>
